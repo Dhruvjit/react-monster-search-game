@@ -1,0 +1,58 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(125, 185, 232);
+}
+
+h1{
+    font-family: 'Noto Sans TC Bold', serif;
+    font-size: 2rem;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/NotoSansTC-Light.otf") format('opentype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans TC Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/NotoSansTC-Bold.otf") format('opentype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans TC Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/NotoSansTC-Medium.otf") format('opentype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans TC Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/NotoSansTC-Regular.otf") format('opentype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans TC Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: url("./fonts/NotoSansTC-Thin.otf") format('opentype') /* Safari, Android, iOS */
+}
+
+
+body {
+    font-family: 'Noto Sans TC Regular', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        to left,
+        rgb(36, 63, 139) 0%,
+        rgba(0, 128, 128, 1) 100%
+    );
+}
